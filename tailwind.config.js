@@ -51,11 +51,23 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        soundfolio: {
+          blue: "#5BB9DB",
+          green: "#4FAA52",
+          black: "#000000",
+          lightBlue: "#B8E2F2",
+          white: "#FFFFFF",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+        "3xl": "1.5rem",
+      },
+      boxShadow: {
+        apple: "0 4px 30px rgba(0, 0, 0, 0.1)",
+        "apple-dark": "0 4px 30px rgba(255, 255, 255, 0.05)",
       },
       keyframes: {
         "accordion-down": {
